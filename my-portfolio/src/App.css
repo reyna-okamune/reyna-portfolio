@@ -3,7 +3,8 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  --kiwi-green: rgba(168, 224, 95, 0.3); /* 		Primary buttons, highlights  */
+  --light-green: #def2c4;
+  --kiwi-green: rgb(168, 224, 95); /* 		Primary buttons, highlights  */
   --flesh-green: #628B35; /* 		Backgrounds or hover effects */
   --dark-seed-green: #365B2A; /* Headings, accents, or text on light bg */
   --seed-black: #1C1C1C; /* 	Text, nav links, or contrast buttons */
@@ -28,8 +29,9 @@ body  {
   align-items: center;
   padding: 1rem 2.5rem;
   font-size: 1.15rem;
-  background-color: var(--kiwi-green);
+  background-color: var(--light-green);
   border-radius: 60px;
+  z-index: 3;
 }
 
 .nav-left {
@@ -57,14 +59,15 @@ body  {
 .nav-container a {
   font-weight: 600;
   position: relative;
-  color: var(--dark-seed-green);
+  color: var(--flesh-green);
+  transition: color 0.5s ease;
 }
 
 .nav-container a::after {
   content: '|';
   position: absolute;
   right: -1.75rem;
-  color: var(--dark-seed-green);
+  color: var(--flesh-green);
 }
 
 .nav-container a:last-child::after {
@@ -72,7 +75,7 @@ body  {
 }
 
 .nav-container a:hover {
-  color: var(--seed-black);
+  color: var(--dark-seed-black);
 }
 
 

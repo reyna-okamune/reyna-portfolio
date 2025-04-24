@@ -2,6 +2,7 @@ import { useState } from 'react'
 import NavBar from './NavBar.tsx'
 import LandingPage from './LandingPage.tsx'
 import AboutSection from './AboutPage.tsx'
+import ContactPage from './ContactPage.tsx'
 import './App.css'
 
 function App() {
@@ -24,8 +25,7 @@ function App() {
         {/* Your projects */}
       </section>
       <section id="contact">
-        <h1>Contact</h1>
-        {/* Your contact form or info */}
+        < ContactPage />
       </section>
     </>
   )

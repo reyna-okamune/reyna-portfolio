@@ -1,0 +1,80 @@
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.left h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    color: var(--dark-seed-green);
+}
+.left p {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.right {
+    flex: 1.5;
+    display: flex;
+    padding-left: 20px;
+}
+
+.right form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.right input {
+    width: 80%; /* or 100% if you want it to fill the whole space */
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--light-green);
+    box-sizing: border-box;
+    margin: 5px 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.right textarea {
+    width: 80%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--light-green);
+    box-sizing: border-box;
+    margin: 5px 0;
+    font-family: "Poppins", sans-serif;
+    resize: none; 
+}
+
+
+.submit-btn {
+    margin-top: 20px;
+    padding: 10px 10px;
+    width: 30%; 
+    border-radius: 5px;
+    font-size: 1rem;
+    align-self: center;
+    background-color: var(--flesh-green);
+    color: var(--soft-white);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.submit-btn:hover {
+    background-color: var(--dark-seed-green);
+}
+
+

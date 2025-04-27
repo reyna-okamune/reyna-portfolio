@@ -1,7 +1,9 @@
 .contact-container {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 100px;
+    padding-top: 200px;
+    scroll-margin-top: 300px;
+    padding-bottom: 150px;
 }
 
 .left {
@@ -32,10 +34,11 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding-top: 40px;
 }
 
 .right input {
-    width: 80%; /* or 100% if you want it to fill the whole space */
+    width: 80%;
     padding: 10px;
     font-size: 1rem;
     border: none;
@@ -64,7 +67,7 @@
     margin-top: 20px;
     padding: 10px 10px;
     width: 30%; 
-    border-radius: 5px;
+    border-radius: 50px;
     font-size: 1rem;
     align-self: center;
     background-color: var(--flesh-green);

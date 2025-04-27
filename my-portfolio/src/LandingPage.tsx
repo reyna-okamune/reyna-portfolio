@@ -16,7 +16,7 @@ export default function LandingPage() {
                 <h1>Reyna Okamune's Portfolio</h1>
                 <p>
                     Welcome to my personal portfolio! I tried to make it as chic and personal
-                    while showcasing my coding skills! Learn more about me here! (˶˃ ᵕ ˂˶)
+                    while showcasing my coding skills! Learn more about me here!
                 </p>
             </div>
 

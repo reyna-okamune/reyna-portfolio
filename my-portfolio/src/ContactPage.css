@@ -80,4 +80,38 @@
     background-color: var(--dark-seed-green);
 }
 
+@media (max-width: 390px) {
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+        text-align: center;
+    }
+
+    .left h1 {
+        font-size: 2rem;
+    }
+    .left p {
+        font-size: 0.85rem;
+    }
+
+    
+.right input {
+    font-size: 0.85rem;
+}
+
+.right textarea {
+    font-size: 0.85rem;
+}
+
+    
+    .submit-btn {
+        padding: 10px 10px;
+        width: 50%; 
+        font-size: 0.85rem;
+    }
+}
 

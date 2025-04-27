@@ -29,3 +29,25 @@
     font-size: 1.15rem;
     color: var(--seed-black);
 }
+
+@media (max-width: 390px) {
+    .about-container {
+        flex-direction: column;
+    }
+
+    .left-div h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .right-div {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    
+    .right-div p {
+        font-weight: 400;
+        font-size: 0.85rem;
+        color: var(--seed-black);
+    }
+}

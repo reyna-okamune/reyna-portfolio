@@ -77,28 +77,16 @@ body  {
 .nav-container a:hover {
   color: var(--dark-seed-black);
 }
-
-
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+ 
+@media (max-width: 390px) {
+  .nav-container {
+    font-size: 0.85rem;
+    padding: 1rem 2rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .logo img {
+    width: 7vw;
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }

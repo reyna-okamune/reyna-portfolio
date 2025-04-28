@@ -19,6 +19,7 @@ html {
 body  {
   font-family: "Poppins", sans-serif;
   background-color: var(--soft-white);
+  color-scheme: light;
 }
 
 .nav-container {

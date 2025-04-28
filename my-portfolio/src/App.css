@@ -80,9 +80,18 @@ body  {
  
 @media (max-width: 390px) {
   .nav-container {
-    font-size: 0.85rem;
-    padding: 1rem 2rem;
+    font-size: 0.75rem;
+    padding: 1rem 1.5rem;
   }
+
+  .nav-container a::after {
+    right: -1.15rem;
+  }
+
+  .nav-right {
+    gap: 2rem;
+  }
+  
 
   .logo img {
     width: 7vw;

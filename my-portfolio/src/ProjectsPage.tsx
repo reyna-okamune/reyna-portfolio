@@ -1,11 +1,25 @@
 import {motion} from 'framer-motion'
+import { useState, useEffect } from 'react';
 import './ProjectsPage.css'
 
 export default function Projects() {
+
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+    const handleResize = () => {
+        setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    // Clean up the event listener when component unmounts
+    return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
     const box = {
-        width: '15vw',
-        height: '15vw',
-        
+        width: windowWidth < 390 ? '35vw' : '20vw',
+        height: windowWidth < 390 ? '35vw' : '20vw',
         borderRadius: 5,
     }
 
@@ -20,7 +34,9 @@ export default function Projects() {
         >
             <div className='header'>
                 <h1>Recent Work</h1>
+                <p>* click the fruit to visit my project *</p>
             </div>
+
 
             <div className='boxes-container'>
                 <div className='box'>
@@ -68,9 +84,6 @@ export default function Projects() {
                 </div>
             </div>
 
-            <div className='footer'>
-                <p>* click the fruit to visit my project *</p>
-            </div>
         </motion.div>
     )
 }

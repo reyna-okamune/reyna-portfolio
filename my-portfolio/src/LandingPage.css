@@ -56,3 +56,30 @@
   }
   
 
+@media (max-width: 390px) {
+    .landing-container {
+        flex-direction: column;
+        padding-top: 80px;
+    }
+
+    .intro-container {
+        padding-bottom: 10px;
+    }
+
+    .intro-container h1 {
+        font-size: 3rem;
+    }
+
+    .intro-container h3 {
+        font-size: 0.9rem;
+    }
+
+    .intro-container p {
+        padding-top: 20px ; 
+        font-size: 0.7rem;
+    }
+
+    .kiwi-wrapper {
+        width: 50%;
+      }
+}

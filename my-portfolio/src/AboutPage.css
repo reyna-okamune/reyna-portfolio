@@ -33,6 +33,7 @@
 @media (max-width: 390px) {
     .about-container {
         flex-direction: column;
+        padding-top: 100px;
     }
 
     .left-div h1 {

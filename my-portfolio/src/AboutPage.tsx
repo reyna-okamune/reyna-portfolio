@@ -1,7 +1,23 @@
 import { motion } from 'framer-motion';
+import {useState, useEffect} from 'react';
 import './AboutPage.css';
 
 const AboutSection = () => {
+
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  
+      useEffect(() => {
+      const handleResize = () => {
+          setWindowWidth(window.innerWidth);
+      };
+  
+      window.addEventListener('resize', handleResize);
+  
+      
+      return () => window.removeEventListener('resize', handleResize);
+      }, []);
+  
+
   return (
     <motion.div
       id="about"
@@ -13,6 +29,13 @@ const AboutSection = () => {
     >
       <div className='left-div'>
         <h1>About Me</h1>
+
+        {windowWidth < 390 
+          ? <div className='logo-img'>
+              <img src='./sonny-logo.png' alt='sonny-logo'/>
+            </div>
+          : <></>
+        }
       </div>
 
       <div className='right-div'>

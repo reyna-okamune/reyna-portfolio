@@ -36,6 +36,11 @@
         padding-top: 100px;
     }
 
+    .left-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .left-div h1 {
         font-size: 2rem;
         text-align: center;
@@ -50,5 +55,14 @@
         font-weight: 400;
         font-size: 0.85rem;
         color: var(--seed-black);
+    }
+
+    .logo-img {
+        height: auto;
+    }
+
+    .logo-img img {
+        width: 25vw;
+        height: auto;
     }
 }

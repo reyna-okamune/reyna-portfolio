@@ -13,7 +13,7 @@ export default function Projects() {
 
     window.addEventListener('resize', handleResize);
 
-    // Clean up the event listener when component unmounts
+    
     return () => window.removeEventListener('resize', handleResize);
     }, []);
 

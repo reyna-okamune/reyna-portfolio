@@ -55,7 +55,7 @@ export default function Projects() {
                 </div>
 
                 <div className='box'>
-                    <a href="" target="_blank" rel="noopener noreferrer">
+                    <a href="https://sonny-product-cards.vercel.app/" target="_blank" rel="noopener noreferrer">
                         <motion.div
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.8 }}
@@ -65,8 +65,8 @@ export default function Projects() {
                         <img src="/kiwi.png" alt="Animal Trivia" className="box-image" />
                         </motion.div>
                     </a>
-                     <p className='title'>Project Name</p>
-                     <p className='description'>Techstack</p>
+                     <p className='title'>Sonny Product Cards</p>
+                     <p className='description'>React, JavaScript, TailwindCSS</p>
                 </div>
 
                 <div className='box'>

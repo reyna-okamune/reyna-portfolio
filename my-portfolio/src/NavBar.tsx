@@ -13,14 +13,14 @@ export default function NavBar() {
         >
             <div className="nav-left">
                 <a href="#landing" className="logo">
-                    <img src="./sonny-logo.png" alt="logo"/>
+                    <img src="./Reyna_Sonny_Angel_Headshot.png" alt="logo"/>
                 </a> 
             </div>
 
             <div className="nav-right">
                 <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
+                <a href="#projects">Lessons</a>
+                <a href="#contact">Gallery</a>
             </div>
 
         </motion.nav>

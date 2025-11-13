@@ -3,15 +3,25 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+:root {
+  color-scheme: light only;
+
   --light-green: #def2c4;
   --kiwi-green: rgb(168, 224, 95); /* 		Primary buttons, highlights  */
   --flesh-green: #628B35; /* 		Backgrounds or hover effects */
   --dark-seed-green: #365B2A; /* Headings, accents, or text on light bg */
   --seed-black: #1C1C1C; /* 	Text, nav links, or contrast buttons */
-  --soft-white: #F9FFF3; /* 	Section backgrounds */
+  /* blue and white color scheme */
+  --dark-blue: #0892A5;
+  --light-blue: #B3D9E0;
+  --soft-white: #f8f8f3; /* 	Section backgrounds */
+  --cocoa-brown: #3A3633;
+  --sand-brown: #896646;
+
 
 }
-
 html {
   scroll-behavior: smooth;
 }
@@ -19,7 +29,7 @@ html {
 body  {
   font-family: "Poppins", sans-serif;
   background-color: var(--soft-white);
-  color-scheme: light;
+ 
 }
 
 .nav-container {
@@ -30,8 +40,8 @@ body  {
   align-items: center;
   padding: 1rem 2.5rem;
   font-size: 1.15rem;
-  background-color: var(--light-green);
-  border-radius: 60px;
+  background-color: var(--light-blue);
+  border-radius: 10rem;
   z-index: 3;
 }
 
@@ -47,8 +57,8 @@ body  {
 .logo img {
   width: 5vw;
   height: auto;
-  background-color: var(--flesh-green);
-  border-radius: 50px;
+  background-color: var(--dark-blue);
+  border-radius: 55px;
   display: block;
 }
 
@@ -60,7 +70,7 @@ body  {
 .nav-container a {
   font-weight: 600;
   position: relative;
-  color: var(--flesh-green);
+  color: var(--dark-blue);
   transition: color 0.5s ease;
 }
 
@@ -68,7 +78,7 @@ body  {
   content: '|';
   position: absolute;
   right: -1.75rem;
-  color: var(--flesh-green);
+  color: var(--dark-blue);
 }
 
 .nav-container a:last-child::after {
@@ -76,7 +86,7 @@ body  {
 }
 
 .nav-container a:hover {
-  color: var(--dark-seed-black);
+  color: var(--cocoa-brown);
 }
  
 @media (max-width: 390px) {

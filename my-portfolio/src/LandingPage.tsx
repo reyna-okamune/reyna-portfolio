@@ -12,35 +12,38 @@ export default function LandingPage() {
             viewport={{ once: true, amount: 0.4 }}
         >
             <div className="intro-container">
-                <h3>Aspring Front End Developer</h3>
-                <h1>Reyna Okamune's Portfolio</h1>
+                <h3>Aspring Pilates Instructor</h3>
+                <h1>Reyna Okamune's Flow</h1>
+
                 <p>
-                    Welcome to my personal portfolio! I tried to make it as chic and personal
-                    while showcasing my coding skills! Learn more about me here!
+                    Welcome to my personal Pilates blog! I am currently earning my teaching certificate to deepen my understanding of mindful movement. 
+                    Learn more about my journey and enjoy the content! (˶ᵔ ᵕ ᵔ˶)
                 </p>
             </div>
 
             
 
-            <div className="fruit-container">
+            <div className="image-container">
                 <motion.div
                     className="kiwi-wrapper"
-                    animate={{ rotate: 360 }}
-                    transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
+                     animate={{
+                        scale: [1, 1.08, 1],
+                        opacity: [1, 0.9, 1],
+                    }}
+                    transition={{
+                        duration: 10,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                    }}
+
                 >
                     <img 
-                    src="./kiwi.png" 
-                    alt="kiwi-image" 
-                    className="kiwi" 
+                    src="./Reyna_Sonny_Angel_Full.png" 
+                    alt="sonny-angel-image" 
+                    className="sonny-angel" 
                     />
                 </motion.div>
             </div>
-
-
-        
-      
-    
-
         </motion.div>
     )
 }

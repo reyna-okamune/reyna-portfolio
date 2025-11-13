@@ -12,33 +12,36 @@
     text-align: left;
     flex: 2;
     padding-left: 20px;
-    color: var(--seed-black);
+    color: var(--cocoa-brown);
 }
 
 .intro-container h1 {
     margin: 0;
     font-size: 4rem;
-    color: var(--dark-seed-green);
+    color: var(--dark-blue);
 }
 
 .intro-container h3 {
     font-weight: 500;
-    color: var(--flesh-green);
+    color: var(--cocoa-brown);
     font-size: 1.15rem;
 }
 
+
 .intro-container p {
     font-weight: 400;
-    padding-top: 40px; 
-    font-size: 1rem;
+    padding-top: 30px; 
+    font-size: 0.9rem;
 }
 
-.fruit-container {
+.image-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex: 1.5;
 }
+
 
 .kiwi-wrapper {
     display: flex;
@@ -47,7 +50,7 @@
     width: 55%;
   }
   
-  .kiwi {
+  .sonny-angel {
     width: 100%;
     height: auto;
     object-fit: contain;
@@ -67,16 +70,16 @@
     }
 
     .intro-container h1 {
-        font-size: 3rem;
+        font-size: 2.25rem;
     }
 
     .intro-container h3 {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     .intro-container p {
-        padding-top: 20px ; 
-        font-size: 0.7rem;
+        padding-top: 15px ; 
+        font-size: 0.6rem;
     }
 
     .kiwi-wrapper {

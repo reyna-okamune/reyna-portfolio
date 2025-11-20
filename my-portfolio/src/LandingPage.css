@@ -28,12 +28,6 @@
 }
 
 
-.intro-container p {
-    font-weight: 400;
-    padding-top: 30px; 
-    font-size: 0.9rem;
-}
-
 .image-container {
     display: flex;
     flex-direction: column;
@@ -59,7 +53,7 @@
   }
   
 
-@media (max-width: 390px) {
+@media (max-width: 500px) {
     .landing-container {
         flex-direction: column;
         padding-top: 80px;
@@ -70,7 +64,7 @@
     }
 
     .intro-container h1 {
-        font-size: 2.25rem;
+        font-size: 2.75rem;
     }
 
     .intro-container h3 {
@@ -78,11 +72,12 @@
     }
 
     .intro-container p {
-        padding-top: 15px ; 
-        font-size: 0.6rem;
+        padding-top: 10px ; 
+        font-size: 0.65rem;
     }
 
     .kiwi-wrapper {
+        padding-top: 10px;
         width: 50%;
       }
 }

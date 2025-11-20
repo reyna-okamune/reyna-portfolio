@@ -13,11 +13,10 @@ export default function LandingPage() {
         >
             <div className="intro-container">
                 <h3>Aspring Pilates Instructor</h3>
-                <h1>Reyna Okamune's Flow</h1>
-
+                <h1>Okamune's Flow</h1>
                 <p>
                     Welcome to my personal Pilates blog! I am currently earning my teaching certificate to deepen my understanding of mindful movement. 
-                    Learn more about my journey and enjoy the content! (˶ᵔ ᵕ ᵔ˶)
+                    Learn more about my journey and enjoy the content!
                 </p>
             </div>
 

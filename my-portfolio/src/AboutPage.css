@@ -12,7 +12,7 @@
 
 .left-div h1 {
     font-size: 3rem;
-    color: var(--dark-seed-green);
+    color: var(--dark-blue);
     padding-left: 20px;
 }
 
@@ -27,7 +27,7 @@
 .right-div p {
     font-weight: 400;
     font-size: 1.15rem;
-    color: var(--seed-black);
+    color: var(--cocoa-brown);
 }
 
 @media (max-width: 390px) {
@@ -54,7 +54,7 @@
     .right-div p {
         font-weight: 400;
         font-size: 0.85rem;
-        color: var(--seed-black);
+        color: var(--cocoa-brown);
     }
 
     .logo-img {

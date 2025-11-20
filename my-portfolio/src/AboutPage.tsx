@@ -18,6 +18,7 @@ const AboutSection = () => {
       }, []);
   
 
+
   return (
     <motion.div
       id="about"
@@ -28,7 +29,7 @@ const AboutSection = () => {
       className='about-container'
     >
       <div className='left-div'>
-        <h1>About Me</h1>
+        <h1>Profile</h1>
 
         {windowWidth < 390 
           ? <div className='logo-img'>
@@ -40,11 +41,20 @@ const AboutSection = () => {
 
       <div className='right-div'>
         <p>
-          Hi, I'm <strong>Reyna Okamune</strong>, an aspiring front-end developer from Los Angeles, California!<br></br>
-          <br></br>As a recent graduate with a passion for creative and accesible web deisgn, I'm excited to
-          build engaging user experiences on the web!<br></br>
-          <br></br>When I'm not coding, I enjoy creating content about my kitchen creations and sharing my fitness journey! 
-          I also enjoy growing plumeria and orchid flowers!
+          Hi, I'm <strong>Reyna</strong>!<br></br>
+          <br></br>
+          I am currently pursuing my Mat Pilates Instructor Certification, which I anticipate completing in December 2025, 
+          followed by the Apparatus Certifcation in June 2026. I plan to sit for the National Pilates Certification Program exam 
+          as part of my continued professional development.
+          <br></br>
+          
+           <br></br>
+           Before transitioning into Pilates, I worked in web development. 
+           I built this website to maintain and refine my technical skills while documenting my growth as an instructor.
+           <br></br>
+
+          <br></br>Outside of training, I enjoy traveling and exploring new fitness studios in different countries and cities.
+          I look forward to sharing future insights and experiences from my journey.
         </p>
       </div>
     </motion.div>

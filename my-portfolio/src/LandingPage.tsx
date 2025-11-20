@@ -15,8 +15,8 @@ export default function LandingPage() {
                 <h3>Aspring Pilates Instructor</h3>
                 <h1>Okamune's Flow</h1>
                 <p>
-                    Welcome to my personal Pilates blog! I am currently earning my teaching certificate to deepen my understanding of mindful movement. 
-                    Learn more about my journey and enjoy the content!
+                    Welcome to my personal Pilates blog! I am a Pilates instructor-in-training exploring mindful movement. 
+                    Learn about my journey and enjoy the content!
                 </p>
             </div>
 

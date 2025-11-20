@@ -19,7 +19,7 @@ export default function NavBar() {
 
             <div className="nav-right">
                 <a href="#about">About</a>
-                <a href="#projects">Lessons</a>
+                <a href="#lessons">Lessons</a>
                 <a href="#contact">Gallery</a>
             </div>
 

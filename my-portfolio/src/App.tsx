@@ -2,8 +2,7 @@
 import NavBar from './NavBar.tsx'
 import LandingPage from './LandingPage.tsx'
 import AboutSection from './AboutPage.tsx'
-import Projects from './ProjectsPage.tsx'
-import ContactPage from './ContactPage.tsx'
+import LessonsSection from './LessonsPage.tsx'
 
 import './App.css'
 
@@ -22,13 +21,11 @@ function App() {
         < AboutSection />
       </section>
 
-      <section id="projects">
-        <Projects />
+      <section id="lessons">
+        < LessonsSection />
       </section>
 
-      <section id="contact">
-        < ContactPage />
-      </section>
+
     </>
   )
 }
